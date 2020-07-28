@@ -1,0 +1,114 @@
+body {
+     font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    /* Pattern from https://www.heropatterns.com/ */
+    background-image: url("https://i.ibb.co/xJVgVTD/Processed-with-VSCO-with-a8-preset.jpg");
+    color: #1e272e;
+    color: #fff;
+    font-size: 16px;
+}
+
+.titulo {
+     font-size: 55px;
+     text-transform: uppercase;
+     letter-spacing: 7px;
+}
+
+.galeria img {
+     box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+     border-radius: 15px;
+}
+
+.materialbox-caption {
+     bottom: 30px;
+     right: 0;
+     width: 40%;
+     height: auto;
+     padding: 10px;
+     margin: auto;
+     background: #000;
+     box-shadow: 5px 5px #fff;
+     font-size: 20px;
+     color: #fff;
+     line-height: 28px;
+}
+
+.galeria .col {
+     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+     .materialbox-caption {
+          width: 90%;
+     }
+}
+
+@media screen and (max-width: 992px){
+     .materialbox-caption {
+          width: 70%;
+     }
+}
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+@media (min-width:768px) { 
+    .sociales {
+        width: auto;
+    }
+    
+    footer .contenedor {
+        justify-content: space-between;
+    }
+}
+.showcase {
+    width: 100%;
+    height: 250px; /* SOCIAL MED*/
+    background: url("https://i.ibb.co/kG08Lw8/blue-universe-956981.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.showcase h2,
+.showcase p {
+    margin-bottom: 10px;
+}
+
+.showcase .btn {
+    margin-top: 20px;
+}
+
+
+   
+
+
+
+
+
+
+
+   
